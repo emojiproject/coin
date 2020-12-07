@@ -6,8 +6,8 @@ EMOji is a cryptocurrency blockchain, with an embedded Proof of Stake (POS) and 
 Users can contribute to the network in two separate ways. 
 Proof of Stake: 10% of every block reward goes to the stake holders of the project. 
 Individuals that stake will receive a portion of the POS rewards. 
-Masternodes: 80% of every bock reward goes to Masternode holders.
-More information at [emoji.org](http://www.emoji.org) 
+Masternodes: 90% of every bock reward goes to Masternode holders.
+More information at [emojicoin.net](https://www.emojicoin.net) 
 
 ### Coin Specs
 <table>

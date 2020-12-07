@@ -28,14 +28,8 @@ More information at [emojicoin.net](https://www.emojicoin.net)
 <tr><td>1</td><td>250,000 EMOJ</td></tr>
 </table>
 
-### PoW Rewards Breakdown
 
-<table>
-<th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Miner</th>
-<tr><td>2-250</td><td>1 EMOJ</td><td>90% (0.9 EMOJ)</td><td>10% (0.1 EMOJ)</td></tr>
-</table>
-
-### PoS Rewards Breakdown
+### Rewards Breakdown
 
 <table>
 <th>Phase</th><th>Collateral</th><th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th>

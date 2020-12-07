@@ -33,6 +33,7 @@ More information at [emojicoin.net](https://www.emojicoin.net)
 
 <table>
 <th>Phase</th><th>Collateral</th><th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th>
+<tr><td>Phase 1</td><td>10 EMOJ</td><td>1-250</td><td>1 EMOJ</td><td>90% (0.9 EMOJ)</td><td>10% (0.1 EMOJ)</td></tr>
 <tr><td>Phase 1</td><td>100 EMOJ</td><td>251-5,000</td><td>2 EMOJ</td><td>90% (1.8 EMOJ)</td><td>10% (0.2 EMOJ)</td></tr>
 <tr><td>Phase 2</td><td>250 EMOJ</td><td>5,001-15,000</td><td>2.5 EMOJ</td><td>90% (2.25 EMOJ)</td><td>10% (0.25 EMOJ)</td></tr>
 <tr><td>Phase 3</td><td>350 EMOJ</td><td>15,001-25,000</td><td>3 EMOJ</td><td>90% (2.7 EMOJ)</td><td>10% (0.3 EMOJ)</td></tr>

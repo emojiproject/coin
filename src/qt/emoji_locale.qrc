@@ -1,0 +1,37 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/emoji_bg.qm</file>
+        <file alias="ca">locale/emoji_ca.qm</file>
+        <file alias="cs">locale/emoji_cs.qm</file>
+        <file alias="da">locale/emoji_da.qm</file>
+        <file alias="de">locale/emoji_de.qm</file>
+        <file alias="en">locale/emoji_en.qm</file>
+        <file alias="en_GB">locale/emoji_en_GB.qm</file>
+        <file alias="en_US">locale/emoji_en_US.qm</file>
+        <file alias="eo">locale/emoji_eo.qm</file>
+        <file alias="es">locale/emoji_es.qm</file>
+        <file alias="es_ES">locale/emoji_es_ES.qm</file>
+        <file alias="fi">locale/emoji_fi.qm</file>
+        <file alias="fr_FR">locale/emoji_fr_FR.qm</file>
+        <file alias="hi_IN">locale/emoji_hi_IN.qm</file>
+        <file alias="hr">locale/emoji_hr.qm</file>
+        <file alias="hr_HR">locale/emoji_hr_HR.qm</file>
+        <file alias="it">locale/emoji_it.qm</file>
+        <file alias="ja">locale/emoji_ja.qm</file>
+        <file alias="ko_KR">locale/emoji_ko_KR.qm</file>
+        <file alias="lt_LT">locale/emoji_lt_LT.qm</file>
+        <file alias="nl">locale/emoji_nl.qm</file>
+        <file alias="pl">locale/emoji_pl.qm</file>
+        <file alias="pt">locale/emoji_pt.qm</file>
+        <file alias="pt_BR">locale/emoji_pt_BR.qm</file>
+        <file alias="ro_RO">locale/emoji_ro_RO.qm</file>
+        <file alias="ru">locale/emoji_ru.qm</file>
+        <file alias="sk">locale/emoji_sk.qm</file>
+        <file alias="sv">locale/emoji_sv.qm</file>
+        <file alias="tr">locale/emoji_tr.qm</file>
+        <file alias="uk">locale/emoji_uk.qm</file>
+        <file alias="vi">locale/emoji_vi.qm</file>
+        <file alias="zh_CN">locale/emoji_zh_CN.qm</file>
+        <file alias="zh_TW">locale/emoji_zh_TW.qm</file>
+    </qresource>
+</RCC>

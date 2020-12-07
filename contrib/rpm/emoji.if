@@ -1,0 +1,157 @@
+
+## <summary>policy for emoji</summary>
+
+
+########################################
+## <summary>
+##	Transition to emoji.
+## </summary>
+## <param name="domain">
+## <summary>
+##	Domain allowed to transition.
+## </summary>
+## </param>
+#
+interface(`emoji_domtrans',`
+	gen_require(`
+		type emoji_t, emoji_exec_t;
+	')
+
+	corecmd_search_bin($1)
+	domtrans_pattern($1, emoji_exec_t, emoji_t)
+')
+
+
+########################################
+## <summary>
+##	Execute emoji server in the emoji domain.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`emoji_initrc_domtrans',`
+	gen_require(`
+		type emoji_initrc_exec_t;
+	')
+
+	init_labeled_script_domtrans($1, emoji_initrc_exec_t)
+')
+
+
+########################################
+## <summary>
+##	Search emoji lib directories.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`emoji_search_lib',`
+	gen_require(`
+		type emoji_var_lib_t;
+	')
+
+	allow $1 emoji_var_lib_t:dir search_dir_perms;
+	files_search_var_lib($1)
+')
+
+########################################
+## <summary>
+##	Read emoji lib files.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`emoji_read_lib_files',`
+	gen_require(`
+		type emoji_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	read_files_pattern($1, emoji_var_lib_t, emoji_var_lib_t)
+')
+
+########################################
+## <summary>
+##	Manage emoji lib files.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`emoji_manage_lib_files',`
+	gen_require(`
+		type emoji_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	manage_files_pattern($1, emoji_var_lib_t, emoji_var_lib_t)
+')
+
+########################################
+## <summary>
+##	Manage emoji lib directories.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`emoji_manage_lib_dirs',`
+	gen_require(`
+		type emoji_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	manage_dirs_pattern($1, emoji_var_lib_t, emoji_var_lib_t)
+')
+
+
+########################################
+## <summary>
+##	All of the rules required to administrate
+##	a emoji environment
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+## <param name="role">
+##	<summary>
+##	Role allowed access.
+##	</summary>
+## </param>
+## <rolecap/>
+#
+interface(`emoji_admin',`
+	gen_require(`
+		type emoji_t;
+		type emoji_initrc_exec_t;
+		type emoji_var_lib_t;
+	')
+
+	allow $1 emoji_t:process { ptrace signal_perms };
+	ps_process_pattern($1, emoji_t)
+
+	emoji_initrc_domtrans($1)
+	domain_system_change_exemption($1)
+	role_transition $2 emoji_initrc_exec_t system_r;
+	allow $2 system_r;
+
+	files_search_var_lib($1)
+	admin_pattern($1, emoji_var_lib_t)
+
+')
+

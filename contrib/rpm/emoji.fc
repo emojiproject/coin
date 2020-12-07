@@ -1,0 +1,8 @@
+/usr/bin/emoji-cli		--	gen_context(system_u:object_r:emoji_exec_t,s0)
+/usr/sbin/emojid		--	gen_context(system_u:object_r:emoji_exec_t,s0)
+/usr/lib(64)?/emoji/emojid		--	gen_context(system_u:object_r:emoji_exec_t,s0)
+
+/etc/emoji(/.*)?		gen_context(system_u:object_r:emoji_conf_t,s0)
+/var/lib/emoji(/.*)?		gen_context(system_u:object_r:emoji_var_lib_t,s0)
+
+(/var)?/run/emojid(/.*)?   gen_context(system_u:object_r:emoji_var_run_t,s0)

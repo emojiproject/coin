@@ -1,0 +1,6 @@
+usr/local/bin/emoji-qt usr/bin
+share/pixmaps/emoji32.xpm usr/share/pixmaps
+share/pixmaps/emoji16.xpm usr/share/pixmaps
+share/pixmaps/emoji128.png usr/share/pixmaps
+debian/emoji-qt.desktop usr/share/applications
+debian/emoji-qt.protocol usr/share/kde4/services/

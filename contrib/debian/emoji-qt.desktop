@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Emoj Coin
+Comment=EMOJI P2P Cryptocurrency
+Comment[fr]=EMOJI, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=EMOJI, eşten eşe kriptografik sanal para birimi
+Exec=emoji-qt %u
+Terminal=false
+Type=Application
+Icon=emoji128
+MimeType=x-scheme-handler/emoji;
+Categories=Office;Finance;
+StartupWMClass=EMOji-qt

@@ -4242,7 +4242,7 @@ bu sayede EMOJI sahipleri blok ödülü kazanımına katılabilmektedir
                            zEMOJ is an optional privacy-centric method of coin mixing on the
                            EMOJI blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
                            "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -4252,7 +4252,7 @@ bu sayede EMOJI sahipleri blok ödülü kazanımına katılabilmektedir
 gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
  hiçbir tarayıcı tarafından takip edilemez. Teknik detayları
  hakkında daha çok bilgi almak için
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
                            "EMOJI Zerocoin (zEMOJ) Teknik Makalesi"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -4302,7 +4302,7 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zEMOJ in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            If you would like to keep and stake your zEMOJ, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4312,7 +4312,7 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
                            EMOJI cüzdanınız ağa destek olmak için varsayılan olarak tüm EMOJ bakiyenizin 10% 'unu zEMOJ'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zEMOJ stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zEMOJ Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. EMOJIQT veya GUI kullanmıyorsanız, emoji.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Teknik detayları hakkında daha çok bilgi almak için
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Teknik Makalesi"&lt;/a&gt;.
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Teknik Makalesi"&lt;/a&gt;.
                            zEMOJ'lerinizi tutmak ve stakelemek istiyorsanız, lütfen SSS kısmındaki "Nasıl Stake yaparım"
 kısmını okuyunuz.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4423,7 +4423,7 @@ zEMOJ Protokolü ile anonimleştirilmiş olacaktır.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+                           &lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, One can be
                            &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;
@@ -4433,7 +4433,7 @@ zEMOJ Protokolü ile anonimleştirilmiş olacaktır.
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            Resmi chat gruplarımızın çoğunun içinde destek kanalları bulunmaktadır, örneğin
-                           &lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+                           &lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
                            Discord içinnde #support &lt;/a&gt;.
                            Bir destek talebi açmak isterseniz,bunu
                            &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;

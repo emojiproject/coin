@@ -4079,14 +4079,14 @@ pour voir votre solde de monnaie dépensable sur le réseau.
                            zEMOJ is an optional privacy-centric method of coin mixing on the
                            EMOJI blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
                            "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 zEMOJ est une méthode optionnelle de fongibilité des pièces sur la blockchain EMOJI, axée sur la confidentialité. Basiquement, cela permet rendre vos transactions intraçables par les explorateurs de blocs. Vous pouvez en savoir plus sur les aspects techniques en consultant le document
-&lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+&lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
  "EMOJI Zerocoin (zEMOJ) Technical Paper".&lt;/a&gt;
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -4136,7 +4136,7 @@ mon solde en zEMOJ?</translation>
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zEMOJ in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            If you would like to keep and stake your zEMOJ, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4152,7 +4152,7 @@ votre fichier emoji.conf et ajouter &lt;i&gt; enablezeromint=0&lt;/i&gt; sans gu
 et redémarrer votre portefeuille.&lt;/p&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 Vous pouvez en savoir plus sur zEMOJ dans
-&lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt; le document "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
+&lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt; le document "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
 Si vous voulez conserver et mettre en jeu vos zEMOJ, veuillez lire la section "Comment staker"
 de la FAQ ci-dessous.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4261,7 +4261,7 @@ Le staking devrait maintenant être actif.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+                           &lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, One can be
                            &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;
@@ -4271,7 +4271,7 @@ Le staking devrait maintenant être actif.
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;
 Nous avons des services de support dans la plupart de nos groupes de discussion officiels, tel que
-&lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+&lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
  #support dans notre groupe Discord&lt;/a&gt;.
 Si vous préférez soumettre un ticket, utilisez
 &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;

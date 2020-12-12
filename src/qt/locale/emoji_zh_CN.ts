@@ -4243,7 +4243,7 @@ EMOJI使用了一个股权证明(PoS)一致系统算法，
                            zEMOJ is an optional privacy-centric method of coin mixing on the
                            EMOJI blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
                            "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -4251,7 +4251,7 @@ EMOJI使用了一个股权证明(PoS)一致系统算法，
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 zEMOJ是一种可选的以隐私为中心的隐私币
 它是EMOJI区块链的一员，基本上在任何块资源管理器
-所有的交易都不能被跟踪&lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+所有的交易都不能被跟踪&lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
 
 你可以阅读更多关于技术方面的文章&lt;/a&gt;
 
@@ -4391,7 +4391,7 @@ EMOJI零币(zEMOJ)技术文件
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+                           &lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, One can be
                            &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;
@@ -4401,7 +4401,7 @@ EMOJI零币(zEMOJ)技术文件
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 例如，我们在大多数官方聊天组中都有支持频道
-&lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+&lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
 #在&lt;/a&gt;Discord支持我们
 如果您想订票&lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;，我们可以为您提供前台支持&lt;/a&gt;
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>

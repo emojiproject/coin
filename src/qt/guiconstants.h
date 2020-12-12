@@ -54,7 +54,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "EMOJI"
-#define QAPP_ORG_DOMAIN "emoji.org"
+#define QAPP_ORG_DOMAIN "emojiproject.net"
 #define QAPP_APP_NAME_DEFAULT "EMOJI-Qt"
 #define QAPP_APP_NAME_TESTNET "EMOJI-Qt-testnet"
 

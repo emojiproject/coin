@@ -4238,7 +4238,7 @@ EMOJI использует консенсус PoS (Proof of Stake), позвол
                            zEMOJ is an optional privacy-centric method of coin mixing on the
                            EMOJI blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
                            "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -4247,7 +4247,7 @@ EMOJI использует консенсус PoS (Proof of Stake), позвол
 zEMOJ - это необязательная конфиденциальность, которая возможна при микшировании монет
 в блокчейне EMOJI. По сути,ни одна транзакция не может быть отслежена
 ни в одном из обозревателей блоков. Вы можете прочитать больше о технических характеристиках в
-&lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+&lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
 "Техническом документе EMOJI Zerocoin (zEMOJ)"&lt;/a&gt;.
  &lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
@@ -4295,7 +4295,7 @@ zEMOJ - это необязательная конфиденциальность
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zEMOJ in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            If you would like to keep and stake your zEMOJ, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4310,7 +4310,7 @@ zEMOJ - это необязательная конфиденциальность
 Если вы не используете EMOJI-QT или GUI, вы можете просто открыть
 свой файл emoji.conf и добавить &lt;i&gt;enablezeromint=0&lt;/i&gt; без кавычек и
 перезапустите свой кошелек для отключения  автоматической чеканки. &lt;/p&gt; &lt;/p&gt;&lt;p align="justify"&gt; Вы можете прочитать больше о zEMOJ в
-&lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+&lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
  "Технический документ EMOJI Zerocoin (zEMOJ)"&lt;/a&gt;.
 Если вы хотите продолжать стекинг zEMOJ, ознакомьтесь с разделом" Как осуществить стекинг"
 в разделе часто задаваемых вопросов ниже.
@@ -4403,7 +4403,7 @@ zEMOJ можно потратить и отправить на любой адр
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+                           &lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, One can be
                            &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;
@@ -4413,7 +4413,7 @@ zEMOJ можно потратить и отправить на любой адр
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 У нас есть каналы поддержки в большинстве наших официальных групп, например
-&lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+&lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
 #support в нашем Discord&lt;/a&gt;.
 Если вы хотите задать вопрос, одним из способов это сделать может послужить
 &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;

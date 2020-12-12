@@ -4225,14 +4225,14 @@ Tu cartera EMOJI también necesita estar completamente sincronizada para que pue
                            zEMOJ is an optional privacy-centric method of coin mixing on the
                            EMOJI blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
                            "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt; 
 zEMOJ es un método opcional centrado en la privacidad de monedas en la Blockchain EMOJI. Básicamente, todas sus transacciones no pueden ser rastreadas en ningún explorador de bloques. Puedes leer más sobre los aspectos técnicos en el
- &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+ &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
 "Documentación Técnica de EMOJI Zerocoin (zEMOJ) ". &lt;/a&gt;.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -4277,7 +4277,7 @@ zEMOJ es un método opcional centrado en la privacidad de monedas en la Blockcha
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zEMOJ in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt; "EMOJI Zerocoin (zEMOJ) Technical Paper"&lt;/a&gt;.
                            If you would like to keep and stake your zEMOJ, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4294,7 +4294,7 @@ tu archivo emoji.conf y agregar &lt;i&gt; enablezeromint=0&lt;/i&gt; Sin las com
 luego reinicia tu billetera para deshabilitar la impresión automática.&lt;/p&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 Puedes leer más sobre zEMOJ en el
-&lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt; "Documentación Técnica de EMOJI Zerocoin (zEMOJ)" &lt;/a&gt;.
+&lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt; "Documentación Técnica de EMOJI Zerocoin (zEMOJ)" &lt;/a&gt;.
 Si deseas conservar y hacer stake tu zEMOJ, lee la sección "¿Cómo puedo hacer stake?"de las preguntas frecuentes a continuación.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4397,7 +4397,7 @@ El stake debe estar ahora habilitado.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+                           &lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, One can be
                            &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;
@@ -4407,7 +4407,7 @@ El stake debe estar ahora habilitado.
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Tenemos canales de ayuda en la mayoría de nuestros grupos de chat oficiales, por ejemplo
-&lt;a style='color: #f13845' href='https://Discord.EMOJI.org'&gt;
+&lt;a style='color: #f13845' href='https://Discord.emojiproject.net'&gt;
 #support en nuestro Discord&lt;/a&gt;.
 Si prefieres enviar una solicitud, una puede ser
 &lt;a style='color: #f13845' href='https://EMOJI.FreshDesk.com'&gt;

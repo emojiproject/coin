@@ -418,8 +418,8 @@
                 <widget class="QLabel" name="labelWebLink">
                  <property name="text">
                   <string>
-                    You can read more here &lt;a style='color: #f13845' href='http://emoji.org'&gt;
-                    http://emoji.org.
+                    You can read more here &lt;a style='color: #f13845' href='http://emojiproject.net'&gt;
+                    http://emojiproject.net.
                   </string>
                  </property>
                 </widget>
@@ -832,7 +832,7 @@
                            zEMOJ is an optional privacy-centric method of coin mixing on the
                            EMOJI blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt;
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt;
                            &quot;EMOJI Zerocoin (zEMOJ) Technical Paper&quot;&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </string>
@@ -1033,7 +1033,7 @@
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
                            You can read more about zEMOJ in the
-                           &lt;a style='color: #f13845' href='https://emoji.org/zemoj/'&gt; &quot;EMOJI Zerocoin (zEMOJ) Technical Paper&quot;&lt;/a&gt;.
+                           &lt;a style='color: #f13845' href='https://emojiproject.net/zemoj/'&gt; &quot;EMOJI Zerocoin (zEMOJ) Technical Paper&quot;&lt;/a&gt;.
                            If you would like to keep and stake your zEMOJ, please read the &quot;How do I stake&quot;
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -1349,8 +1349,8 @@
                            We have support channels in most of our official chat groups, for support please reach out to us via
                            &lt;a style='color: #f13845' href='https://discord.gg/QDMkgW3'&gt;
                            Discord&lt;/a&gt; or at
-                           &lt;a style='color: #f13845' href='mailto://info@emoji.org'&gt;
-                           info@emoji.org.
+                           &lt;a style='color: #f13845' href='mailto://info@emojiproject.net'&gt;
+                           info@emojiproject.net.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </string>
                         </property>

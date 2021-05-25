@@ -53,12 +53,21 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x000007571768b45451821d7e0fdeae69a1fb08b4dec9f8443addd3049c21a8f3"));
+	(0, uint256("0x000007571768b45451821d7e0fdeae69a1fb08b4dec9f8443addd3049c21a8f3"))
+	(25292, uint256("0xf5c5dba32311ac4e4838c2a3070db4a22326009e9d58c92a3107e64e897a5583"))
+	(26828, uint256("0x6ff792145203787119831a3acd147eee3a51226019d9c3dded757bb61f4c59cf"))
+	(35534, uint256("0x59577dd5f9050792479379c0c46883c1e89b0df9582e93485a954747917b1fa8"))
+        (203240, uint256("0xd2c57ab89541c7355cd7e9c7e48084e8fbc968cfb6a32cd264f87126cd07f144"))
+        (204380, uint256("0x4fccc551f7cbdaeaf11b4b5a0c48d8b7734bfa0f0b7fb5b2d3c1c1c9bb2524ff"))
+
+
+	
+	;
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-	1595395950, // * UNIX timestamp of last checkpoint block 1595395950
-	153163,    // * total number of transactions between genesis and last checkpoint 153163
+	1621938810, // * UNIX timestamp of last checkpoint block 1595395950
+	204380,    // * total number of transactions between genesis and last checkpoint 153163
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -235,7 +244,11 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x6947b974ad6d2f69773c1bc9a5df8aefb9b96b8eef6047df96eeb418169e9344"));
 
         vSeeds.push_back(CDNSSeedData("155.138.155.96", "155.138.155.96"));
-        vSeeds.push_back(CDNSSeedData("78.141.233.110", "78.141.233.110"));		
+        vSeeds.push_back(CDNSSeedData("78.141.233.110", "78.141.233.110"));
+	vSeeds.push_back(CDNSSeedData("209.250.250.169", "209.250.250.169"));
+        vSeeds.push_back(CDNSSeedData("149.28.159.176", "149.28.159.176"));	
+        vSeeds.push_back(CDNSSeedData("45.32.145.128", "45.32.145.128"));
+	
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 24);

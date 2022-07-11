@@ -11,7 +11,7 @@ More information at [emojicoin.net](https://www.emojicoin.net)
 
 <table>
 <th colspan=4>Addnodes</th>
-<tr><td>addnode=104.248.173.112</td></tr>
+<tr><td>addnode=78.141.233.110</td></tr>
 <tr><td>addnode=155.138.155.96</td></tr>
 <tr><td>addnode=157.230.229.220</td></tr>
 <tr><td>addnode=104.248.173.112</td></tr>

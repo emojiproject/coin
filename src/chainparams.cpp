@@ -64,7 +64,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(600000, uint256("41fbd9c1bf78350f673461d2a3f1c1d1bdb8841881871f66e01fc40fb8e394dd"))
 	(700000, uint256("c5aed4168b5b214988e7514f05889e5bd67c9262b7c4058f2ad2699999b268d8"))
 	(706600, uint256("bb9f74ca642c4d5db7a9055aeca485f456fc41c851b3abdf9a91b1b37d6bc7d9"))	
-	
+	(735472, uint256("1199db8d2f3b59f9a071be50636014d2ff677178c1d2c9e42fc91c71c911365f"))	
 	;
 
 static const Checkpoints::CCheckpointData data = {
@@ -251,6 +251,11 @@ public:
 	vSeeds.push_back(CDNSSeedData("209.250.250.169", "209.250.250.169"));
         vSeeds.push_back(CDNSSeedData("149.28.159.176", "149.28.159.176"));	
         vSeeds.push_back(CDNSSeedData("45.32.145.128", "45.32.145.128"));
+	vSeeds.push_back(CDNSSeedData("node1.emojiproject.net", "node1.emojiproject.net"));	
+	vSeeds.push_back(CDNSSeedData("node2.emojiproject.net", "node2.emojiproject.net"));	
+	vSeeds.push_back(CDNSSeedData("node3.emojiproject.net", "node3.emojiproject.net"));	
+	vSeeds.push_back(CDNSSeedData("node4.emojiproject.net", "node4.emojiproject.net"));	
+
 	
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33);
@@ -264,14 +269,14 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = true;  //true
-        fAllowMinDifficultyBlocks = false; //false
-        fDefaultConsistencyChecks = false;  //false
-        fRequireStandard = true;  //true 
-        fMineBlocksOnDemand = false; //false
-        fSkipProofOfWorkCheck = false;  //false
-        fTestnetToBeDeprecatedFieldRPC = false;  //false
-        fHeadersFirstSyncingActive = false;  //false
+        fMiningRequiresPeers = true;  
+        fAllowMinDifficultyBlocks = false; 
+        fDefaultConsistencyChecks = false;  
+        fRequireStandard = true;  
+        fMineBlocksOnDemand = false; 
+        fSkipProofOfWorkCheck = false; 
+        fTestnetToBeDeprecatedFieldRPC = false; 
+        fHeadersFirstSyncingActive = false; 
 
         nPoolMaxTransactions = 3;
         nBudgetCycleBlocks = 43200; //!< Amount of blocks in a months period of time (using 1 minutes per) = (60*24*30)

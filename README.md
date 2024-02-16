@@ -20,16 +20,8 @@
 <td>POS + Masternodes</td>
 </tr>
 <tr>
-<td>Block Time</td>
-<td>120 Sec  = 2 Minute</td>
-</tr>
-<tr>
 <td>Maximum Supply</td>
 <td>155 000 000 EMOJ</td>
-</tr>
-<tr>
-<td>Minimum Stake Age</td>
-<td>1 Hour</td>
 </tr>
 <tr>
 <td>Rewardstructure</td>

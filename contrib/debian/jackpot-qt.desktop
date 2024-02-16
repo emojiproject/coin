@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=EMOJ 
+Comment=EMOJ P2P Cryptocurrency
+Comment[fr]=EMOJ, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=EMOJ, eşten eşe kriptografik sanal para birimi
+Exec=EMOJ-qt %u
+Terminal=false
+Type=Application
+Icon=pivx128
+MimeType=x-scheme-handler/EMOJ;
+Categories=Office;Finance;
+StartupWMClass=EMOJ-qt

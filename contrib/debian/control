@@ -1,4 +1,4 @@
-Source: emoji
+Source: EMOJ
 Section: utils
 Priority: optional
 Maintainer: Fuzzbawls <fuzzbawls@gmail.com>
@@ -28,37 +28,37 @@ Build-Depends: debhelper,
  libzmq3-dev,
  dh-systemd
 Standards-Version: 3.9.2
-Homepage: http://www.emoji.org
-Vcs-Git: git://github.com/EMOji/EMOJI.git
-Vcs-Browser: http://github.com/EMOji/EMOJI
+Homepage: https://www.emojiproject.net/
+Vcs-Git: git:github.com/EMOJ/EMOJ.git
+Vcs-Browser: https://github.com/emojiproject/EMOJ/
 
-Package: emojid
+Package: EMOJd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- EMOJI is a free open source peer-to-peer electronic cash system that
+ EMOJ is a free, open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
  check for double-spending.
  .
  Full transaction history is stored locally at each client.  This
- requires 10+ GB of space, slowly growing.
+ requires 18.5+ GB of space, slowly growing.
  .
- This package provides the daemon, emojid, and the CLI tool
- emoji-cli to interact with the daemon.
+ This package provides the daemon, EMOJd, and the CLI tool
+ EMOJ-cli to interact with the daemon.
 
-Package: emoji-qt
+Package: EMOJ-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- EMOJI is a free open source peer-to-peer electronic cash system that
+ EMOJ is a free, open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
  check for double-spending.
  .
  Full transaction history is stored locally at each client.  This
- requires 10+ GB of space, slowly growing.
+ requires 18.5+ GB of space, slowly growing.
  .
- This package provides EMOji-Qt, a GUI for EMOJI based on Qt.
+ This package provides EMOJ-Qt, a GUI for EMOJ based on Qt.

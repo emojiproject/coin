@@ -1,27 +1,27 @@
-Name "Emoj Coin (64-bit)"
+Name "EMOJ Core (64-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define COMPANY "Emoj Coin project"
-!define URL https://www.emoji.org
+!define COMPANY "EMOJ Core project"
+!define URL https://www.pivx.org
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/olli/emoji-aktuel/emoji-master/share/pixmaps/emoji.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/olli/emoji-aktuel/emoji-master/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/root/emoji2000/emoj/share/pixmaps/pivx.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/root/emoji2000/emoj/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/olli/emoji-aktuel/emoji-master/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/root/emoji2000/emoj/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER "Emoj Coin"
-!define MUI_FINISHPAGE_RUN $INSTDIR\emoji-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "EMOJ Core"
+!define MUI_FINISHPAGE_RUN $INSTDIR\EMOJ-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/olli/emoji-aktuel/emoji-master/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/root/emoji2000/emoj/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -47,22 +47,22 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/olli/emoji-aktuel/emoji-master/emoji-1.0.0-win64-setup.exe
+OutFile /root/emoji2000/emoj/EMOJ-2.0.0-win64-setup.exe
 !if "64" == "64"
-InstallDir $PROGRAMFILES64\EMOji
+InstallDir $PROGRAMFILES64\Pivx
 !else
-InstallDir $PROGRAMFILES\EMOji
+InstallDir $PROGRAMFILES\Pivx
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 1.0.0.0
-VIAddVersionKey ProductName "Emoj Coin"
-VIAddVersionKey ProductVersion "1.0.0"
+VIProductVersion 2.0.0.0
+VIAddVersionKey ProductName "EMOJ Core"
+VIAddVersionKey ProductVersion "2.0.0"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
-VIAddVersionKey FileVersion "1.0.0"
+VIAddVersionKey FileVersion "2.0.0"
 VIAddVersionKey FileDescription ""
 VIAddVersionKey LegalCopyright ""
 InstallDirRegKey HKCU "${REGKEY}" Path
@@ -72,14 +72,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/olli/emoji-aktuel/emoji-master/release/emoji-qt.exe
-    File /oname=COPYING.txt /home/olli/emoji-aktuel/emoji-master/COPYING
-    File /oname=readme.txt /home/olli/emoji-aktuel/emoji-master/doc/README_windows.txt
+    File /root/emoji2000/emoj/release/EMOJ-qt.exe
+    File /oname=COPYING.txt /root/emoji2000/emoj/COPYING
+    File /oname=readme.txt /root/emoji2000/emoj/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/olli/emoji-aktuel/emoji-master/release/emojid.exe
-    File /home/olli/emoji-aktuel/emoji-master/release/emoji-cli.exe
+    File /root/emoji2000/emoj/release/EMOJd.exe
+    File /root/emoji2000/emoj/release/EMOJ-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /home/olli/emoji-aktuel/emoji-master/doc\*.*
+    File /r /root/emoji2000/emoj/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd
@@ -90,21 +90,22 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\emoji-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\EMOJ-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\EMOJ Core (testnet, 64-bit).lnk" "$INSTDIR\EMOJ-qt.exe" "-testnet" "$INSTDIR\EMOJ-qt.exe" 1
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
-    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "1.0.0"
+    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "2.0.0"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" Publisher "${COMPANY}"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" URLInfoAbout "${URL}"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayIcon $INSTDIR\uninstall.exe
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "emoji" "URL Protocol" ""
-    WriteRegStr HKCR "emoji" "" "URL:EMOji"
-    WriteRegStr HKCR "emoji\DefaultIcon" "" $INSTDIR\emoji-qt.exe
-    WriteRegStr HKCR "emoji\shell\open\command" "" '"$INSTDIR\emoji-qt.exe" "%1"'
+    WriteRegStr HKCR "EMOJ" "URL Protocol" ""
+    WriteRegStr HKCR "EMOJ" "" "URL:Pivx"
+    WriteRegStr HKCR "EMOJ\DefaultIcon" "" $INSTDIR\EMOJ-qt.exe
+    WriteRegStr HKCR "EMOJ\shell\open\command" "" '"$INSTDIR\EMOJ-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -122,7 +123,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\emoji-qt.exe
+    Delete /REBOOTOK $INSTDIR\EMOJ-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -134,7 +135,8 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\EMOji.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\EMOJ Core (testnet, 64-bit).lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Pivx.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -142,7 +144,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "emoji"
+    DeleteRegKey HKCR "EMOJ"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0
